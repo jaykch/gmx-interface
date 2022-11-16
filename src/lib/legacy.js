@@ -1351,8 +1351,7 @@ export function getProcessedData(
 }
 
 export function getPageTitle(data) {
-  return `${data} | Decentralized
-  Perpetual Exchange | GMX`;
+  return `${data} | CCX`;
 }
 
 export function isHashZero(value) {
