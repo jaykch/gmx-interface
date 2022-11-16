@@ -1,3 +1,5 @@
+@import "../styles/variables";
+
 .App {
   position: relative;
   overflow: hidden;
@@ -157,11 +159,17 @@
 .App-box-solid {
   position: relative;
   border-radius: 0.4rem;
-  border: none!important;
+  border: none !important;
   font-weight: 600;
   box-shadow: 0px 5px 33px 0px #0000001A;
-  background:  radial-gradient(circle at -184.725px 707.244px, #BA1EE455, #0000000f);
+
+  background: $radial-1;
+
   font-size: 1.5rem;
+}
+
+.token-table-wrapper{
+  background: $radial-2;
 }
 
 .App-card-bottom-placeholder {
@@ -409,7 +417,7 @@ button.App-connect-wallet:hover {
 
 .App-card-divider {
   height: 1px;
-  background: #23263b;
+  background: rgba(35, 38, 59, 0.11);
   margin: 1.05rem -1.5rem;
 }
 
