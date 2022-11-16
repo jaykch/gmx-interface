@@ -524,9 +524,13 @@ export default function DashboardV2() {
               <Trans>
                 {chainName} Total Stats start from {totalStatsStartDate}.<br /> For detailed stats:
               </Trans>{" "}
-              {chainId === ARBITRUM && <ExternalLink href="https://stats.gmx.io">https://stats.gmx.io</ExternalLink>}
+              {chainId === ARBITRUM && (
+                <ExternalLink href="https://stats.crosscapitalx.com">https://stats.crosscapitalx.com</ExternalLink>
+              )}
               {chainId === AVALANCHE && (
-                <ExternalLink href="https://stats.gmx.io/avalanche">https://stats.gmx.io/avalanche</ExternalLink>
+                <ExternalLink href="https://stats.crosscapitalx.com/avalanche">
+                  https://stats.crosscapitalx.com/avalanche
+                </ExternalLink>
               )}
               .
             </div>

@@ -24,77 +24,77 @@ const NETWORK_ICON_ALTS = {
 };
 
 export default function Ecosystem() {
-  const gmxPages = [
+  const ccxPages = [
     {
-      title: "GMX Governance",
-      link: "https://gov.gmx.io/",
-      linkLabel: "gov.gmx.io",
-      about: t`GMX Governance Page`,
+      title: "CCX Governance",
+      link: "https://gov.crosscapitalx.io/",
+      linkLabel: "gov.crosscapitalx.io",
+      about: t`ccx Governance Page`,
       chainIds: [ARBITRUM, AVALANCHE],
     },
     {
-      title: "GMX Stats",
-      link: "https://stats.gmx.io/",
-      linkLabel: "stats.gmx.io",
-      about: t`GMX Stats Page`,
+      title: "CCX Stats",
+      link: "https://stats.crosscapitalx.com/",
+      linkLabel: "stats.crosscapitalx.io",
+      about: t`ccx Stats Page`,
       chainIds: [ARBITRUM, AVALANCHE],
     },
     {
-      title: "GMX Proposals",
-      link: "https://snapshot.org/#/gmx.eth",
+      title: "CCX Proposals",
+      link: "https://snapshot.org/#/ccx.eth",
       linkLabel: "snapshot.org",
-      about: t`GMX Proposals Voting page`,
+      about: t`CCX Proposals Voting page`,
       chainIds: [ARBITRUM, AVALANCHE],
     },
     {
-      title: "GMX Announcements",
-      link: "https://t.me/GMX_Announcements",
+      title: "CCX Announcements",
+      link: "https://t.me/crosscapitalx",
       linkLabel: "t.me",
-      about: t`GMX Announcements and Updates`,
+      about: t`CCX Announcements and Updates`,
       chainIds: [ARBITRUM, AVALANCHE],
     },
   ];
 
   const communityProjects = [
     {
-      title: "GMX Blueberry Club",
-      link: "https://www.blueberry.club/",
-      linkLabel: "blueberry.club",
-      about: t`GMX Blueberry NFTs`,
+      title: "CCX Blueberry Club",
+      link: "https://club.crosscapitalx.com/",
+      linkLabel: "ccx.club",
+      about: t`ccx Blueberry NFTs`,
       creatorLabel: "@xm92boi",
       creatorLink: "https://t.me/xm92boi",
       chainIds: [ARBITRUM],
     },
     {
-      title: "GMX Leaderboard",
-      link: "https://www.gmx.house/",
-      linkLabel: "gmx.house",
-      about: t`Leaderboard for GMX traders`,
+      title: "CCX Leaderboard",
+      link: "https://www.ccx.house/",
+      linkLabel: "ccx.house",
+      about: t`Leaderboard for ccx traders`,
       creatorLabel: "@Itburnz",
       creatorLink: "https://t.me/Itburnz",
       chainIds: [ARBITRUM, AVALANCHE],
     },
     {
-      title: "GMX Positions Bot",
-      link: "https://t.me/GMXPositions",
+      title: "CCX Positions Bot",
+      link: "https://t.me/ccxpositions",
       linkLabel: "t.me",
-      about: t`Telegram bot for GMX position updates`,
+      about: t`Telegram bot for CCX position updates`,
       creatorLabel: "@zhongfu",
       creatorLink: "https://t.me/zhongfu",
       chainIds: [ARBITRUM, AVALANCHE],
     },
     {
-      title: "Blueberry Pulse",
-      link: "https://blueberrypulse.substack.com/",
+      title: "CCX Pulse",
+      link: "https://ccx.substack.com/",
       linkLabel: "substack.com",
-      about: t`GMX Weekly Updates`,
+      about: t`CCX Weekly Updates`,
       creatorLabel: "@puroscohiba",
       creatorLink: "https://t.me/puroscohiba",
       chainIds: [ARBITRUM, AVALANCHE],
     },
     {
       title: "DegenClip",
-      link: "https://degenclip.com/gmx",
+      link: "https://degenclip.com/ccx",
       linkLabel: "degenclip.com",
       about: t`Community curated tweet collection`,
       creatorLabel: "@ox21l",
@@ -102,25 +102,25 @@ export default function Ecosystem() {
       chainIds: [ARBITRUM, AVALANCHE],
     },
     {
-      title: "GMX Yield Simulator",
-      link: "https://gmx.defisims.com/",
+      title: "CCX Yield Simulator",
+      link: "https://crosscapitalx.defisims.com/",
       linkLabel: "defisims.com",
-      about: t`Yield simulator for GMX`,
+      about: t`Yield simulator for ccx`,
       creatorLabel: "@kyzoeth",
       creatorLink: "https://twitter.com/kyzoeth",
       chainIds: [ARBITRUM, AVALANCHE],
     },
     {
-      title: "GMX Returns Calculator",
+      title: "CCX Returns Calculator",
       link: "https://docs.google.com/spreadsheets/u/4/d/1mQZlztz_NpTg5qQiYIzc_Ls1OTLfMOUtmEQN-WW8jj4/copy",
       linkLabel: "docs.google.com",
-      about: t`Returns calculator for GMX and GLP`,
+      about: t`Returns calculator for ccx and GLP`,
       creatorLabel: "@AStoicTrader1",
       creatorLink: "https://twitter.com/AStoicTrader1",
       chainIds: [ARBITRUM, AVALANCHE],
     },
     {
-      title: "GMX Compound Calculator",
+      title: "CCX Compound Calculator",
       link: "https://docs.google.com/spreadsheets/d/14DiIE1wZkK9-Y5xSx1PzIgmpcj4ccz1YVw5nwzIWLgI/edit#gid=0",
       linkLabel: "docs.google.com",
       about: t`Optimal compound interval calculator`,
@@ -129,28 +129,28 @@ export default function Ecosystem() {
       chainIds: [AVALANCHE],
     },
     {
-      title: "GMX Trading Stats",
-      link: "https://t.me/GMXTradingStats",
+      title: "CCX Trading Stats",
+      link: "https://t.me/ccxTradingStats",
       linkLabel: "t.me",
-      about: t`Telegram bot for Open Interest on GMX`,
+      about: t`Telegram bot for Open Interest on ccx`,
       creatorLabel: "@SniperMonke01",
       creatorLink: "https://twitter.com/SniperMonke01",
       chainIds: [ARBITRUM, AVALANCHE],
     },
     {
-      title: "GMX Staking Bot",
-      link: "https://t.me/GMX_Staking_bot",
+      title: "CCX Staking Bot",
+      link: "https://t.me/CCX_Staking_bot",
       linkLabel: "t.me",
-      about: t`GMX staking rewards updates and insights`,
-      creatorLabel: "@GMX_Staking_bot",
-      creatorLink: "https://twitter.com/GMX_Staking_bot",
+      about: t`CCX staking rewards updates and insights`,
+      creatorLabel: "@ccx_Staking_bot",
+      creatorLink: "https://twitter.com/ccx_Staking_bot",
       chainIds: [ARBITRUM, AVALANCHE],
     },
     {
-      title: "GMX Staking Calculator",
-      link: "https://gmxstaking.com",
-      linkLabel: "gmxstaking.com",
-      about: t`GMX staking calculator`,
+      title: "CCX Staking Calculator",
+      link: "https://crosscapitalx.com",
+      linkLabel: "ccxstaking.com",
+      about: t`ccx staking calculator`,
       creatorLabel: "@n1njawtf",
       creatorLink: "https://t.me/n1njawtf",
       chainIds: [ARBITRUM, AVALANCHE],
@@ -159,27 +159,27 @@ export default function Ecosystem() {
 
   const dashboardProjects = [
     {
-      title: "GMX Referrals Dashboard",
-      link: "https://www.gmxreferrals.com/",
-      linkLabel: "gmxreferrals.com",
-      about: t`Dashboard for GMX referral stats`,
+      title: "CCX Referrals Dashboard",
+      link: "https://www.ccxreferrals.com/",
+      linkLabel: "ccxreferrals.com",
+      about: t`Dashboard for CCX referral stats`,
       creatorLabel: "@kyzoeth",
       creatorLink: "https://twitter.com/kyzoeth",
       chainIds: [ARBITRUM, AVALANCHE],
     },
     {
-      title: "GMX Terminal",
-      link: "https://gmxterminal.com",
-      linkLabel: "gmxterminal.com",
-      about: t`GMX explorer for stats and traders`,
+      title: "CCX Terminal",
+      link: "https://ccxterminal.com",
+      linkLabel: "ccxterminal.com",
+      about: t`CCX explorer for stats and traders`,
       creatorLabel: "@vipineth",
       creatorLink: "https://t.me/vipineth",
       chainIds: [ARBITRUM],
     },
     {
-      title: "GMX Analytics",
-      link: "https://gmxstats.com/",
-      linkLabel: "gmxstats.com",
+      title: "ccx Analytics",
+      link: "https://ccxstats.com/",
+      linkLabel: "ccxstats.com",
       about: t`Financial reports and protocol analytics`,
       creatorLabel: "@CryptoMessiah",
       creatorLink: "https://t.me/LarpCapital",
@@ -187,9 +187,9 @@ export default function Ecosystem() {
     },
     {
       title: "TokenTerminal",
-      link: "https://tokenterminal.com/terminal/projects/gmx",
+      link: "https://tokenterminal.com/terminal/projects/ccx",
       linkLabel: "tokenterminal.com",
-      about: t`GMX fundamentals`,
+      about: t`ccx fundamentals`,
       creatorLabel: "@tokenterminal",
       creatorLink: "https://twitter.com/tokenterminal",
       chainIds: [ARBITRUM, AVALANCHE],
@@ -198,14 +198,14 @@ export default function Ecosystem() {
       title: "CryptoFees",
       link: "https://cryptofees.info",
       linkLabel: "cryptofees.info",
-      about: t`Fees generated by GMX`,
+      about: t`Fees generated by ccx`,
       creatorLabel: "@CryptoFeesInfo",
       creatorLink: "https://twitter.com/CryptoFeesInfo",
       chainIds: [ARBITRUM, AVALANCHE],
     },
     {
       title: "Shogun Dashboard (Dune Arbitrum)",
-      link: "https://dune.com/shogun/gmx-analytics-arbitrum",
+      link: "https://dune.com/shogun/ccx-analytics-arbitrum",
       linkLabel: "dune.com",
       about: t`Protocol analytics`,
       creatorLabel: "@JamesCliffyz",
@@ -214,7 +214,7 @@ export default function Ecosystem() {
     },
     {
       title: "Shogun Dashboard (Dune Avalanche)",
-      link: "https://dune.com/shogun/gmx-analytics-avalanche",
+      link: "https://dune.com/shogun/ccx-analytics-avalanche",
       linkLabel: "dune.com",
       about: t`Protocol analytics`,
       creatorLabel: "@JamesCliffyz",
@@ -222,16 +222,16 @@ export default function Ecosystem() {
       chainIds: [AVALANCHE],
     },
     {
-      title: "GMX Perpetuals Data",
-      link: "https://app.laevitas.ch/altsderivs/GMX/perpetualswaps",
+      title: "ccx Perpetuals Data",
+      link: "https://app.laevitas.ch/altsderivs/ccx/perpetualswaps",
       linkLabel: "laevitas.ch",
-      about: t`GMX Perpetuals Data`,
+      about: t`ccx Perpetuals Data`,
       creatorLabel: "@laevitas1",
       creatorLink: "https://twitter.com/laevitas1",
       chainIds: [ARBITRUM],
     },
     {
-      title: "GMX Blueberry Leaderboard",
+      title: "ccx Blueberry Leaderboard",
       link: "https://www.blueberryboard.com",
       linkLabel: "blueberryboard.com",
       about: t`GBC NFTs APR tracker and rewards`,
@@ -248,7 +248,7 @@ export default function Ecosystem() {
       linkLabe: "debank.com",
       about: t`DeFi Portfolio Tracker`,
       announcementLabel: "twitter.com",
-      announcementLink: "https://twitter.com/GMX_IO/status/1439711532884152324",
+      announcementLink: "https://twitter.com/ccx_IO/status/1439711532884152324",
       chainIds: [ARBITRUM, AVALANCHE],
     },
     {
@@ -257,7 +257,7 @@ export default function Ecosystem() {
       linkLabel: "defillama.com",
       about: t`Decentralized Finance Dashboard`,
       announcementLabel: "twitter.com",
-      announcementLink: "https://twitter.com/GMX_IO/status/1438124768033660938",
+      announcementLink: "https://twitter.com/ccx_IO/status/1438124768033660938",
       chainIds: [ARBITRUM, AVALANCHE],
     },
     {
@@ -266,7 +266,7 @@ export default function Ecosystem() {
       linkLabel: "dopex.io",
       about: t`Decentralized Options Protocol`,
       announcementLabel: "twitter.com",
-      announcementLink: "https://twitter.com/GMX_IO/status/1482445801523716099",
+      announcementLink: "https://twitter.com/ccx_IO/status/1482445801523716099",
       chainIds: [ARBITRUM, AVALANCHE],
     },
     {
@@ -284,7 +284,7 @@ export default function Ecosystem() {
       linkLabel: "jonesdao.io",
       about: t`Decentralized Options Strategies`,
       announcementLabel: "twitter.com",
-      announcementLink: "https://twitter.com/GMX_IO/status/1482788805635678212",
+      announcementLink: "https://twitter.com/ccx_IO/status/1482788805635678212",
       chainIds: [ARBITRUM],
     },
     {
@@ -293,7 +293,7 @@ export default function Ecosystem() {
       linkLabel: "yieldyak.com",
       about: t`Yield Optimizer on Avalanche`,
       announcementLabel: "twitter.com",
-      announcementLink: "https://twitter.com/GMX_IO/status/1484601407378378754",
+      announcementLink: "https://twitter.com/ccx_IO/status/1484601407378378754",
       chainIds: [AVALANCHE],
     },
     {
@@ -320,7 +320,7 @@ export default function Ecosystem() {
       linkLabel: "dodoex.io",
       about: t`Decentralized Trading Protocol`,
       announcementLabel: "twitter.com",
-      announcementLink: "https://twitter.com/GMX_IO/status/1438899138549145605",
+      announcementLink: "https://twitter.com/ccx_IO/status/1438899138549145605",
       chainIds: [ARBITRUM, AVALANCHE],
     },
     {
@@ -329,7 +329,7 @@ export default function Ecosystem() {
       linkLabel: "openocean.finance",
       about: t`DEX Aggregator`,
       announcementLabel: "twitter.com",
-      announcementLink: "https://twitter.com/GMX_IO/status/1495780826016989191",
+      announcementLink: "https://twitter.com/ccx_IO/status/1495780826016989191",
       chainIds: [ARBITRUM, AVALANCHE],
     },
     {
@@ -347,7 +347,7 @@ export default function Ecosystem() {
       linkLabel: "1inch.io",
       about: t`DEX Aggregator`,
       announcementLabel: "twitter.com",
-      announcementLink: "https://twitter.com/GMX_IO/status/1522247451410845696",
+      announcementLink: "https://twitter.com/ccx_IO/status/1522247451410845696",
       chainIds: [ARBITRUM, AVALANCHE],
     },
     {
@@ -372,28 +372,28 @@ export default function Ecosystem() {
 
   const telegramGroups = [
     {
-      title: "GMX",
-      link: "https://t.me/GMX_IO",
+      title: "ccx",
+      link: "https://t.me/ccx_IO",
       linkLabel: "t.me",
       about: t`Telegram Group`,
     },
     {
-      title: "GMX (Chinese)",
-      link: "https://t.me/gmxch",
+      title: "ccx (Chinese)",
+      link: "https://t.me/ccxch",
       linkLabel: "t.me",
       about: t`Telegram Group (Chinese)`,
     },
     {
-      title: "GMX (Portuguese)",
-      link: "https://t.me/GMX_Portuguese",
+      title: "ccx (Portuguese)",
+      link: "https://t.me/ccx_Portuguese",
       linkLabel: "t.me",
       about: t`Telegram Group (Portuguese)`,
     },
     {
-      title: "GMX Trading Chat",
+      title: "ccx Trading Chat",
       link: "https://t.me/gambittradingchat",
       linkLabel: "t.me",
-      about: t`GMX community discussion`,
+      about: t`ccx community discussion`,
     },
   ];
 
@@ -405,15 +405,15 @@ export default function Ecosystem() {
             <div className="section-title-icon" />
             <div className="section-title-content">
               <div className="Page-title">
-                <Trans>GMX Pages</Trans>
+                <Trans>ccx Pages</Trans>
               </div>
               <div className="Page-description">
-                <Trans>GMX ecosystem pages.</Trans>
+                <Trans>ccx ecosystem pages.</Trans>
               </div>
             </div>
           </div>
           <div className="DashboardV2-projects">
-            {gmxPages.map((item) => {
+            {ccxPages.map((item) => {
               const linkLabel = item.linkLabel ? item.linkLabel : item.link;
               return (
                 <div className="App-card" key={item.title}>
@@ -451,7 +451,7 @@ export default function Ecosystem() {
               <Trans>Community Projects</Trans>
             </div>
             <div className="Page-description">
-              <Trans>Projects developed by the GMX community.</Trans>
+              <Trans>Projects developed by the ccx community.</Trans>
             </div>
           </div>
           <div className="DashboardV2-projects">
@@ -501,7 +501,7 @@ export default function Ecosystem() {
               <Trans>Dashboards</Trans>
             </div>
             <div className="Page-description">
-              <Trans>GMX dashboards and analytics.</Trans>
+              <Trans>ccx dashboards and analytics.</Trans>
             </div>
           </div>
           <div className="DashboardV2-projects">
@@ -552,7 +552,7 @@ export default function Ecosystem() {
               <Trans>Partnerships and Integrations</Trans>
             </div>
             <div className="Page-description">
-              <Trans>Projects integrated with GMX.</Trans>
+              <Trans>Projects integrated with ccx.</Trans>
             </div>
           </div>
           <div className="DashboardV2-projects">
