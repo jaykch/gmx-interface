@@ -70,6 +70,7 @@
   scrollbar-width: none; /* Firefox */
   max-width: 100%;
 }
+
 .App-header-drawer::-webkit-scrollbar {
   display: none; /* Safari and Chrome */
 }
@@ -80,7 +81,7 @@
   line-height: 1.8rem;
   font-weight: normal;
   letter-spacing: 0.1px;
-  color: #a0a3c4;
+  color: #1c1c1c;
   padding: 1.5rem 1.6rem;
   text-decoration: none;
   display: block;
@@ -93,7 +94,7 @@
 .App-header-drawer .App-header-link-container a:focus,
 .App-header-drawer .App-header-link-container a.active {
   background: #303fd024;
-  color: white;
+  color: #1c1c1c;
 }
 
 .App-header-links-header {
@@ -126,7 +127,7 @@
 }
 
 .App-header-menu-icon {
-  color: white;
+  color: #1c1c1c;
   font-size: 2rem;
   cursor: pointer;
   opacity: 0.7;
@@ -139,11 +140,11 @@
 
 .App-highlight-box {
   background: linear-gradient(
-    45deg,
-    rgba(80, 10, 245, 1) 0%,
-    rgba(43, 118, 224, 1) 35%,
-    rgba(7, 157, 250, 1) 77%,
-    rgba(2, 207, 207, 1) 100%
+      45deg,
+      rgba(80, 10, 245, 1) 0%,
+      rgba(43, 118, 224, 1) 35%,
+      rgba(7, 157, 250, 1) 77%,
+      rgba(2, 207, 207, 1) 100%
   );
   border-radius: 0.3rem;
   box-shadow: 0 0 0.4rem 0.6rem rgba(45, 66, 252, 0.15);
@@ -155,9 +156,11 @@
 .App-box-highlight,
 .App-box-solid {
   position: relative;
-  border: 1px solid #1e2136;
   border-radius: 0.4rem;
-  background: #16182e;
+  border: none!important;
+  font-weight: 600;
+  box-shadow: 0 0 0 1px rgb(0 0 0 / 7%), 0 2px 4px rgb(0 0 0 / 5%), 0 12px 24px rgb(0 0 0 / 5%);
+  background: rgba(127, 147, 242, 0.13);
   font-size: 1.5rem;
 }
 
@@ -206,7 +209,7 @@
   line-height: 2.1rem;
   font-weight: normal;
   letter-spacing: 0px;
-  color: #ffffff;
+  color: #1c1c1c;
 }
 
 .App-card-long_sub__info___subtitle {
@@ -265,7 +268,7 @@
 
 .App-card-long_sub__subtitle {
   letter-spacing: 0.36px;
-  color: white;
+  color: #1c1c1c;
   font-size: 2rem;
   line-height: 2.6rem;
   font-weight: normal;
@@ -291,7 +294,7 @@
   line-height: 2.1rem;
   font-weight: normal;
   letter-spacing: 0px;
-  color: #ffffff;
+  color: #1c1c1c;
 }
 
 .App-card-info-subtitle {
@@ -326,7 +329,7 @@
   border: 1px solid var(--dark-blue-border);
   border-radius: 0.3rem;
   position: relative;
-  color: white;
+  color: #1c1c1c;
   font-size: 2rem;
   display: grid;
   grid-template-columns: auto 1fr;
@@ -334,10 +337,12 @@
   padding-left: 1.85rem;
   padding-top: 1.05rem;
 }
+
 .Wallet-btn:hover {
   background: var(--dark-blue-hover);
   border-color: var(--dark-blue-border);
 }
+
 .Wallet-btn:active {
   background: var(--dark-blue-active);
 }
@@ -393,7 +398,7 @@ button.App-connect-wallet:hover {
   border-radius: 0.4rem;
   display: inline-flex;
   align-items: center;
-  color: white;
+  color: #1c1c1c;
   position: relative;
 }
 
@@ -454,7 +459,7 @@ button.App-connect-wallet:hover {
 .section-title-content .section-title-content__title {
   font-size: 2.325rem;
   line-height: 3.1rem;
-  color: white;
+  color: #1c1c1c;
   letter-spacing: 0px;
 }
 
@@ -469,7 +474,7 @@ button.App-connect-wallet:hover {
 
 .section-title-content .section-title-content__description span {
   cursor: pointer;
-  color: white;
+  color: #1c1c1c;
 }
 
 .Page-title-section {
@@ -542,7 +547,7 @@ button.App-connect-wallet:hover {
   line-height: 2.1rem;
   font-weight: normal;
   letter-spacing: 0px;
-  color: #ffffff;
+  color: #1c1c1c;
   margin-bottom: 1.5rem;
   display: flex;
   align-items: center;
@@ -569,6 +574,7 @@ button.App-connect-wallet:hover {
 .App-card-row.inner {
   padding-left: 1.5rem;
 }
+
 .App-card-row .icon {
   vertical-align: baseline;
   margin-left: 0.31rem;
@@ -620,13 +626,13 @@ button.App-connect-wallet:hover {
 .App-header a.active {
   pointer-events: none;
   opacity: 1;
-  color: #eee;
+  color: #1c1c1c;
 }
 
 .App-header .a:hover,
 .App-header a:hover {
   opacity: 1;
-  color: #eee;
+  color: #1c1c1c;
 }
 
 .App-header-container-left .a,
@@ -641,7 +647,7 @@ button.App-connect-wallet:hover {
 
 .App-header-container-left .a.active,
 .App-header-container-left a.active {
-  color: white;
+  color: #1c1c1c;
 }
 
 .Toastify {
@@ -785,7 +791,7 @@ button.App-connect-wallet:hover {
 
 a.App-cta,
 button.App-cta {
-  color: white;
+  color: #1c1c1c;
   text-decoration: none;
   background: linear-gradient(90deg, rgba(45, 66, 252, 1) 0%, rgba(46, 61, 205, 1) 100%);
   /* box-shadow: 0 0 0.4rem 0.6rem rgba(45,66,252,0.15); */
@@ -805,13 +811,13 @@ a.App-cta.transparent,
 button.App-cta.transparent {
   box-shadow: none;
   background: none;
-  color: rgba(255, 255, 255, 0.7);
+  color: #1c1c1c;
   opacity: 1;
 }
 
 a.App-cta.transparent:hover,
 button.App-cta.transparent:hover:enabled {
-  color: white;
+  color: #1c1c1c;
   box-shadow: none;
   background: none;
 }
@@ -830,7 +836,7 @@ button.App-button-option {
   line-height: 2rem;
   font-weight: normal;
   letter-spacing: 0px;
-  color: white;
+  color: #1c1c1c;
   padding-left: 16px;
   padding-right: 16px;
   text-decoration: none;
@@ -870,7 +876,7 @@ button.App-button-option:disabled {
   border-radius: 1.5rem;
   font-size: 1.5rem;
   background: none;
-  color: white;
+  color: #1c1c1c;
   padding: 0;
   width: 2.4rem;
   height: 2.4rem;
@@ -936,7 +942,7 @@ a.App-social-link {
   margin-left: 1.1rem;
   margin-right: 1.1rem;
   font-size: 2.635rem;
-  color: white;
+  color: #1c1c1c;
   opacity: 0.8;
 }
 
@@ -1001,13 +1007,13 @@ button.App-button {
 
 .Toastify__toast--error {
   background: #333957;
-  color: white;
+  color: #1c1c1c;
   border-radius: 0.6rem;
 }
 
 .Toastify__toast--success {
   background: transparent linear-gradient(90deg, #19836c 0%, #177c66 100%) 0% 0% no-repeat padding-box;
-  color: white;
+  color: #1c1c1c;
   box-shadow: 0px 0.3rem 0.6rem #0000005c;
   border-radius: 0.4rem;
 }
@@ -1023,9 +1029,11 @@ button.App-button {
   align-items: center;
   transition: none;
 }
+
 .Toastify__close-button:hover {
   background: #ffffff47 0% 0% no-repeat padding-box;
 }
+
 .Toastify__toast-body {
   font: normal normal normal 1.4rem/1.6rem Relative;
   line-height: 2rem;
@@ -1131,7 +1139,7 @@ button.App-button {
 
 .App-slider .rc-slider-mark-text,
 .App-slider .rc-slider-mark-text-active {
-  color: white;
+  color: #1c1c1c;
   opacity: 0.5;
 }
 
@@ -1401,9 +1409,11 @@ button.App-button {
 .walletconnect-modal__mobile__toggle a {
   color: #000;
 }
+
 .walletconnect-modal__base {
   max-height: 100%;
 }
+
 .walletconnect-qrcode__image {
   max-height: 50vh;
 }

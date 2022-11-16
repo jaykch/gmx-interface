@@ -94,7 +94,7 @@ export function Header({
         <div className="App-header large">
           <div className="App-header-container-left">
             <Link className="App-header-link-main" to="/">
-              <img src={logoImg} className="big" alt="GMX Logo" />
+              <h1>PH Exchange</h1>
               <img src={logoSmallImg} className="small" alt="GMX Logo" />
             </Link>
             <AppHeaderLinks redirectPopupTimestamp={redirectPopupTimestamp} showRedirectModal={showRedirectModal} />
