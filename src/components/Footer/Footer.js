@@ -39,7 +39,7 @@ export default function Footer({ showRedirectModal, redirectPopupTimestamp }) {
     <div className="Footer">
       <div className={cx("Footer-wrapper", { home: isHome })}>
         <div className="Footer-logo">
-          <img src={logoImg} alt="MetaMask" />
+          <h2>Hawkins is king</h2>
         </div>
         <div className="Footer-social-link-block">
           {socialLinks.map((platform) => {
