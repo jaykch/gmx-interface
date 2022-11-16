@@ -24,7 +24,6 @@
   line-height: 6.8rem;
   font-weight: bold;
   margin-bottom: 1.5rem;
-  letter-spacing: 0;
 }
 
 .Home-title-section-container {
@@ -79,7 +78,6 @@
   line-height: 2.3rem;
   max-width: 29rem;
   color: #a0a3c4;
-  letter-spacing: 0;
 }
 
 .Home-benefit-icon {
@@ -110,13 +108,11 @@
   line-height: 4.8rem;
   font-weight: bold;
   margin-bottom: 3.2rem;
-  letter-spacing: 0;
 }
 
 .Home-cta-info__description {
   font-size: 1.8rem;
   line-height: 2.3rem;
-  letter-spacing: 0;
   color: #a0a3c4;
   margin-bottom: 5rem;
 }
@@ -130,7 +126,6 @@
   font-size: 2.4rem;
   line-height: 3.2rem;
   font-weight: bold;
-  letter-spacing: 0px;
   margin-top: 0.465rem;
   margin-bottom: 1.085rem;
 }
@@ -138,7 +133,6 @@
 .Home-cta-option-subtitle {
   font-size: 1.8rem;
   line-height: 2.3rem;
-  letter-spacing: 0px;
   color: #a0a3c4;
   margin-bottom: 0.3rem;
 }
@@ -215,7 +209,6 @@
   line-height: 4.8rem;
   font-weight: bold;
   margin-bottom: 3.1rem;
-  letter-spacing: 0;
 }
 
 .Home-token-card-options {
@@ -229,10 +222,10 @@
   padding: 2.325rem;
   border-radius: 1.3rem;
   max-width: 59.2rem;
-  background: #16182e;
-  box-shadow: 0px 0.5rem 1.3rem #00000085;
-  border: 1px solid #2a2b3d;
+  background:radial-gradient(circle at -170.802px 276.457px, #FFFFFF55, #0000000f);
+  box-shadow: 0px 5px 33px 0px #0000001A;
   border-radius: 4px;
+  color: #1c1c1c;
 }
 
 .Home-token-card-option-icon {
@@ -241,8 +234,6 @@
   font-weight: 500;
   font-size: 2.325rem;
   line-height: 3.1rem;
-  letter-spacing: 0px;
-  color: #ffffff;
   height: 3.1rem;
 }
 
@@ -253,16 +244,12 @@
 .Home-token-card-option-title {
   font-size: 1.8rem;
   line-height: 2.3rem;
-  letter-spacing: 0px;
-  color: #fff;
   margin-top: 2.325rem;
 }
 
 .Home-token-card-option-apr {
   font-size: 1.5rem;
   line-height: 2.3rem;
-  letter-spacing: 0px;
-  color: #a0a3c4;
   margin-top: 1.9375rem;
 }
 
@@ -317,7 +304,6 @@
   color: #a0a3c4;
   font-size: 1.6rem;
   line-height: 2.5rem;
-  letter-spacing: 0px;
 }
 
 .Home-latest-info__value {
@@ -325,11 +311,9 @@
   color: white;
   font-size: 2.9rem;
   line-height: 3.9rem;
-  letter-spacing: 0px;
 }
 
 .Home-latest-info__description {
-  letter-spacing: 0px;
   color: #a0a3c4;
   font-size: 1.4rem;
   line-height: 2.5rem;
@@ -367,14 +351,12 @@
 }
 
 .Home-faqs-introduction__title {
-  letter-spacing: 0px;
   color: #ffffff;
   font-size: 3.8rem;
   line-height: 4.8rem;
 }
 
 .Home-faqs-introduction__description {
-  letter-spacing: 0px;
   color: #a0a3c4;
   font-size: 1.8rem;
   line-height: 2.3rem;
@@ -421,7 +403,6 @@
 .Home-faqs-content-header__text {
   font-size: 1.7rem;
   line-height: 2.2rem;
-  letter-spacing: 0px;
   color: #ffffff;
 }
 
@@ -430,7 +411,6 @@
   height: 0px;
   visibility: hidden;
   padding: 0 0rem 0 3.1rem;
-  letter-spacing: 0px;
   color: #a0a3c4;
   transition: all 0.3s ease-in-out 0s;
 }
@@ -488,7 +468,6 @@
     line-height: 5.58rem;
     font-weight: bold;
     margin-bottom: 1.5rem;
-    letter-spacing: 0;
   }
 
   .Home-cta-options {
@@ -552,7 +531,6 @@
     line-height: 4.65rem;
     font-weight: bold;
     margin-bottom: 1.5rem;
-    letter-spacing: 0;
   }
 
   .Home-latest-info__icon {
